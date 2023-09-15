@@ -1,0 +1,20 @@
+SELECT * FROM contact;
+
+insert into user values(1,'Subha','11111');
+insert into user values(2,'A','22222');
+insert into user values(3,'B','33333');
+
+
+insert into contact values(1,'SC1','SC1@gmail.com',1);
+insert into contact values(2,'SC2','SC2@gmail.com',1);
+insert into contact values(3,'SC3','SC3@gmail.com',1);
+insert into contact values(4,'SC4','SC3@gmail.com',2);
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+INSERT INTO questions (`qid`,`category`,`difficulty_level`,`option1`,`option2`,`option3`,`option4`,`question_title`,`right_answer`) VALUES (1,'java','easy','JRE','JIT','JDK','JVM','Which component is used to compile, debug and execute the java programs?','JDK');
+INSERT INTO questions (`qid`,`category`,`difficulty_level`,`option1`,`option2`,`option3`,`option4`,`question_title`,`right_answer`) VALUES (2,'java','easy','Object-oriented','Use of pointers','Portable','Dynamic and Extensible','Which one of the following is not a Java feature?','Use of pointers');
+INSERT INTO questions (`qid`,`category`,`difficulty_level`,`option1`,`option2`,`option3`,`option4`,`question_title`,`right_answer`) VALUES (3,'python','easy','.python','.pl','.py','.p','Which of the following is the correct extension of the Python file?','.py');
+INSERT INTO questions (`qid`,`category`,`difficulty_level`,`option1`,`option2`,`option3`,`option4`,`question_title`,`right_answer`) VALUES (4,'python','easy','Python code is both compiled and interpreted','Python code is neither compiled nor interpreted','Python code is only compiled','Python code is only interpreted','Is Python code compiled or interpreted?','Python code is both compiled and interpreted');
+
